@@ -1,0 +1,892 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.24)  30 SEP 2015 11:11
+entering extended mode
+**"D:/Users/LATEX/MATH 609/New folder/pa2.tex"
+("D:/Users/LATEX/MATH 609/New folder/pa2.tex"
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+)) (pa2.aux
+
+LaTeX Warning: Label `fig:test3' multiply defined.
+
+
+LaTeX Warning: Label `fig:test1' multiply defined.
+
+
+LaTeX Warning: Label `fig:test2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test3' multiply defined.
+
+
+LaTeX Warning: Label `fig:test3' multiply defined.
+
+
+LaTeX Warning: Label `fig:test1' multiply defined.
+
+
+LaTeX Warning: Label `fig:test2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test3' multiply defined.
+
+
+LaTeX Warning: Label `fig:test3' multiply defined.
+
+
+LaTeX Warning: Label `fig:test1' multiply defined.
+
+
+LaTeX Warning: Label `fig:test2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test3' multiply defined.
+
+
+LaTeX Warning: Label `fig:test3' multiply defined.
+
+
+LaTeX Warning: Label `fig:test1' multiply defined.
+
+
+LaTeX Warning: Label `fig:test2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test3' multiply defined.
+
+
+LaTeX Warning: Label `fig:test3' multiply defined.
+
+
+LaTeX Warning: Label `fig:test1' multiply defined.
+
+
+LaTeX Warning: Label `fig:test2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test3' multiply defined.
+
+
+LaTeX Warning: Label `fig:test3' multiply defined.
+
+
+LaTeX Warning: Label `fig:test1' multiply defined.
+
+
+LaTeX Warning: Label `fig:test2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test3' multiply defined.
+
+
+LaTeX Warning: Label `fig:test3' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen106
+\MPnumerator=\count92
+\makeMPintoPDFobject=\count93
+\everyMPtoPDFconversion=\toks16
+) [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 43.
+ [1]
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_19_k_Jacobi_p
+art_a.eps>
+(epstopdf)                    date: 2015-09-30 01:39:42
+(epstopdf)                    size: 192516 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_19_k_Jacobi_p
+art_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:46:14
+(epstopdf)                    size: 9919 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_19_k_Jacobi_part_a-eps-converted-to.pdf math609_pa2_comp_example_1_n_19_k_Jac
+obi_part_a.eps>
+(epstopdf)             \includegraphics on input line 149.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_19_k_Jacobi_part_a-eps-converted-to.pdf, id=14, 4
+88.82625pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_19_k_Jacobi_part_a-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use math609_pa2_comp_example_1_n_19_k_Jacobi_part_a-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_19_k_Jacobi_part_a-eps-co
+nverted-to.pdf used on input line 149.
+(pdftex.def)             Requested size: 195.12767pt x 163.07722pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_19_k_Gauss-Se
+idel_part_a.eps>
+(epstopdf)                    date: 2015-09-30 01:39:43
+(epstopdf)                    size: 193192 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_19_k_Gauss-Se
+idel_part_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:42:45
+(epstopdf)                    size: 10194 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_19_k_Gauss-Seidel_part_a-eps-converted-to.pdf math609_pa2_comp_example_1_n_19
+_k_Gauss-Seidel_part_a.eps>
+(epstopdf)             \includegraphics on input line 155.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_19_k_Gauss-Seidel_part_a-eps-converted-to.pdf, id
+=15, 488.82625pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_19_k_Gauss-Seidel_part_a-eps-converted-to.pd
+f Graphic file (type pdf)
+
+<use math609_pa2_comp_example_1_n_19_k_Gauss-Seidel_part_a-eps-converted-to.pdf
+>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_19_k_Gauss-Seidel_part_a-
+eps-converted-to.pdf used on input line 155.
+(pdftex.def)             Requested size: 195.12767pt x 163.07722pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_19_k_SOR_part
+_a.eps>
+(epstopdf)                    date: 2015-09-30 01:39:43
+(epstopdf)                    size: 191990 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_19_k_SOR_part
+_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:46:15
+(epstopdf)                    size: 10116 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_19_k_SOR_part_a-eps-converted-to.pdf math609_pa2_comp_example_1_n_19_k_SOR_pa
+rt_a.eps>
+(epstopdf)             \includegraphics on input line 162.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_19_k_SOR_part_a-eps-converted-to.pdf, id=16, 488.
+82625pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_19_k_SOR_part_a-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use math609_pa2_comp_example_1_n_19_k_SOR_part_a-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_19_k_SOR_part_a-eps-conve
+rted-to.pdf used on input line 162.
+(pdftex.def)             Requested size: 195.12767pt x 163.07722pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_19_k_SSOR_par
+t_a.eps>
+(epstopdf)                    date: 2015-09-30 01:39:43
+(epstopdf)                    size: 253701 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_19_k_SSOR_par
+t_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:46:15
+(epstopdf)                    size: 10360 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_19_k_SSOR_part_a-eps-converted-to.pdf math609_pa2_comp_example_1_n_19_k_SSOR_
+part_a.eps>
+(epstopdf)             \includegraphics on input line 168.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_19_k_SSOR_part_a-eps-converted-to.pdf, id=17, 499
+.8675pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_19_k_SSOR_part_a-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use math609_pa2_comp_example_1_n_19_k_SSOR_part_a-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_19_k_SSOR_part_a-eps-conv
+erted-to.pdf used on input line 168.
+(pdftex.def)             Requested size: 195.12767pt x 159.46797pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_39_k_Jacobi_p
+art_a.eps>
+(epstopdf)                    date: 2015-09-30 01:40:48
+(epstopdf)                    size: 197538 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_39_k_Jacobi_p
+art_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:52:11
+(epstopdf)                    size: 11218 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_39_k_Jacobi_part_a-eps-converted-to.pdf math609_pa2_comp_example_1_n_39_k_Jac
+obi_part_a.eps>
+(epstopdf)             \includegraphics on input line 179.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_39_k_Jacobi_part_a-eps-converted-to.pdf, id=18, 4
+88.82625pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_39_k_Jacobi_part_a-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use math609_pa2_comp_example_1_n_39_k_Jacobi_part_a-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_39_k_Jacobi_part_a-eps-co
+nverted-to.pdf used on input line 179.
+(pdftex.def)             Requested size: 195.12767pt x 163.07722pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_39_k_Gauss-Se
+idel_part_a.eps>
+(epstopdf)                    date: 2015-09-30 01:40:48
+(epstopdf)                    size: 198347 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_39_k_Gauss-Se
+idel_part_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:52:12
+(epstopdf)                    size: 11494 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_39_k_Gauss-Seidel_part_a-eps-converted-to.pdf math609_pa2_comp_example_1_n_39
+_k_Gauss-Seidel_part_a.eps>
+(epstopdf)             \includegraphics on input line 185.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_39_k_Gauss-Seidel_part_a-eps-converted-to.pdf, id
+=19, 488.82625pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_39_k_Gauss-Seidel_part_a-eps-converted-to.pd
+f Graphic file (type pdf)
+
+<use math609_pa2_comp_example_1_n_39_k_Gauss-Seidel_part_a-eps-converted-to.pdf
+>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_39_k_Gauss-Seidel_part_a-
+eps-converted-to.pdf used on input line 185.
+(pdftex.def)             Requested size: 195.12767pt x 163.07722pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_39_k_SOR_part
+_a.eps>
+(epstopdf)                    date: 2015-09-30 01:40:49
+(epstopdf)                    size: 197126 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_39_k_SOR_part
+_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:52:12
+(epstopdf)                    size: 11426 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_39_k_SOR_part_a-eps-converted-to.pdf math609_pa2_comp_example_1_n_39_k_SOR_pa
+rt_a.eps>
+(epstopdf)             \includegraphics on input line 192.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_39_k_SOR_part_a-eps-converted-to.pdf, id=20, 488.
+82625pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_39_k_SOR_part_a-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use math609_pa2_comp_example_1_n_39_k_SOR_part_a-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_39_k_SOR_part_a-eps-conve
+rted-to.pdf used on input line 192.
+(pdftex.def)             Requested size: 195.12767pt x 163.07722pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_39_k_SSOR_par
+t_a.eps>
+(epstopdf)                    date: 2015-09-30 01:40:49
+(epstopdf)                    size: 258759 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_39_k_SSOR_par
+t_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:52:13
+(epstopdf)                    size: 12011 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_39_k_SSOR_part_a-eps-converted-to.pdf math609_pa2_comp_example_1_n_39_k_SSOR_
+part_a.eps>
+(epstopdf)             \includegraphics on input line 198.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_39_k_SSOR_part_a-eps-converted-to.pdf, id=21, 499
+.8675pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_39_k_SSOR_part_a-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use math609_pa2_comp_example_1_n_39_k_SSOR_part_a-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_39_k_SSOR_part_a-eps-conv
+erted-to.pdf used on input line 198.
+(pdftex.def)             Requested size: 195.12767pt x 159.46797pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_79_k_Jacobi_p
+art_a.eps>
+(epstopdf)                    date: 2015-09-30 01:41:46
+(epstopdf)                    size: 208833 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_79_k_Jacobi_p
+art_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:52:13
+(epstopdf)                    size: 13638 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_79_k_Jacobi_part_a-eps-converted-to.pdf math609_pa2_comp_example_1_n_79_k_Jac
+obi_part_a.eps>
+(epstopdf)             \includegraphics on input line 209.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_79_k_Jacobi_part_a-eps-converted-to.pdf, id=22, 4
+88.82625pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_79_k_Jacobi_part_a-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use math609_pa2_comp_example_1_n_79_k_Jacobi_part_a-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_79_k_Jacobi_part_a-eps-co
+nverted-to.pdf used on input line 209.
+(pdftex.def)             Requested size: 195.12767pt x 163.07722pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_79_k_Gauss-Se
+idel_part_a.eps>
+(epstopdf)                    date: 2015-09-30 01:41:46
+(epstopdf)                    size: 209645 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_79_k_Gauss-Se
+idel_part_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:52:14
+(epstopdf)                    size: 13918 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_79_k_Gauss-Seidel_part_a-eps-converted-to.pdf math609_pa2_comp_example_1_n_79
+_k_Gauss-Seidel_part_a.eps>
+(epstopdf)             \includegraphics on input line 215.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_79_k_Gauss-Seidel_part_a-eps-converted-to.pdf, id
+=23, 488.82625pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_79_k_Gauss-Seidel_part_a-eps-converted-to.pd
+f Graphic file (type pdf)
+
+<use math609_pa2_comp_example_1_n_79_k_Gauss-Seidel_part_a-eps-converted-to.pdf
+>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_79_k_Gauss-Seidel_part_a-
+eps-converted-to.pdf used on input line 215.
+(pdftex.def)             Requested size: 195.12767pt x 163.07722pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_79_k_SOR_part
+_a.eps>
+(epstopdf)                    date: 2015-09-30 01:41:47
+(epstopdf)                    size: 208295 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_79_k_SOR_part
+_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:52:14
+(epstopdf)                    size: 13831 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_79_k_SOR_part_a-eps-converted-to.pdf math609_pa2_comp_example_1_n_79_k_SOR_pa
+rt_a.eps>
+(epstopdf)             \includegraphics on input line 222.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_79_k_SOR_part_a-eps-converted-to.pdf, id=24, 488.
+82625pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_79_k_SOR_part_a-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use math609_pa2_comp_example_1_n_79_k_SOR_part_a-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_79_k_SOR_part_a-eps-conve
+rted-to.pdf used on input line 222.
+(pdftex.def)             Requested size: 195.12767pt x 163.07722pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_79_k_SSOR_par
+t_a.eps>
+(epstopdf)                    date: 2015-09-30 01:41:48
+(epstopdf)                    size: 270116 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_79_k_SSOR_par
+t_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:52:15
+(epstopdf)                    size: 13949 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_79_k_SSOR_part_a-eps-converted-to.pdf math609_pa2_comp_example_1_n_79_k_SSOR_
+part_a.eps>
+(epstopdf)             \includegraphics on input line 228.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_79_k_SSOR_part_a-eps-converted-to.pdf, id=25, 499
+.8675pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_79_k_SSOR_part_a-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use math609_pa2_comp_example_1_n_79_k_SSOR_part_a-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_79_k_SSOR_part_a-eps-conv
+erted-to.pdf used on input line 228.
+(pdftex.def)             Requested size: 195.12767pt x 159.46797pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_79_k_Jacobi_p
+art_b.eps>
+(epstopdf)                    date: 2015-09-30 01:45:11
+(epstopdf)                    size: 208484 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_79_k_Jacobi_p
+art_b-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:58:46
+(epstopdf)                    size: 13211 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_79_k_Jacobi_part_b-eps-converted-to.pdf math609_pa2_comp_example_1_n_79_k_Jac
+obi_part_b.eps>
+(epstopdf)             \includegraphics on input line 240.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_79_k_Jacobi_part_b-eps-converted-to.pdf, id=26, 4
+88.82625pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_79_k_Jacobi_part_b-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use math609_pa2_comp_example_1_n_79_k_Jacobi_part_b-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_79_k_Jacobi_part_b-eps-co
+nverted-to.pdf used on input line 240.
+(pdftex.def)             Requested size: 195.12767pt x 163.07722pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_79_k_Gauss-Se
+idel_part_b.eps>
+(epstopdf)                    date: 2015-09-30 01:45:11
+(epstopdf)                    size: 209296 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_79_k_Gauss-Se
+idel_part_b-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:58:47
+(epstopdf)                    size: 13497 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_79_k_Gauss-Seidel_part_b-eps-converted-to.pdf math609_pa2_comp_example_1_n_79
+_k_Gauss-Seidel_part_b.eps>
+(epstopdf)             \includegraphics on input line 246.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_79_k_Gauss-Seidel_part_b-eps-converted-to.pdf, id
+=27, 488.82625pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_79_k_Gauss-Seidel_part_b-eps-converted-to.pd
+f Graphic file (type pdf)
+
+<use math609_pa2_comp_example_1_n_79_k_Gauss-Seidel_part_b-eps-converted-to.pdf
+>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_79_k_Gauss-Seidel_part_b-
+eps-converted-to.pdf used on input line 246.
+(pdftex.def)             Requested size: 195.12767pt x 163.07722pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_79_k_SOR_part
+_b.eps>
+(epstopdf)                    date: 2015-09-30 01:45:12
+(epstopdf)                    size: 207946 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_79_k_SOR_part
+_b-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:58:47
+(epstopdf)                    size: 13406 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_79_k_SOR_part_b-eps-converted-to.pdf math609_pa2_comp_example_1_n_79_k_SOR_pa
+rt_b.eps>
+(epstopdf)             \includegraphics on input line 253.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_79_k_SOR_part_b-eps-converted-to.pdf, id=28, 488.
+82625pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_79_k_SOR_part_b-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use math609_pa2_comp_example_1_n_79_k_SOR_part_b-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_79_k_SOR_part_b-eps-conve
+rted-to.pdf used on input line 253.
+(pdftex.def)             Requested size: 195.12767pt x 163.07722pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_1_n_79_k_SSOR_par
+t_b.eps>
+(epstopdf)                    date: 2015-09-30 01:45:13
+(epstopdf)                    size: 270120 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_1_n_79_k_SSOR_par
+t_b-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:58:48
+(epstopdf)                    size: 13796 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_1_
+n_79_k_SSOR_part_b-eps-converted-to.pdf math609_pa2_comp_example_1_n_79_k_SSOR_
+part_b.eps>
+(epstopdf)             \includegraphics on input line 259.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_1_n_79_k_SSOR_part_b-eps-converted-to.pdf, id=29, 499
+.8675pt x 408.52625pt>
+File: math609_pa2_comp_example_1_n_79_k_SSOR_part_b-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use math609_pa2_comp_example_1_n_79_k_SSOR_part_b-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_1_n_79_k_SSOR_part_b-eps-conv
+erted-to.pdf used on input line 259.
+(pdftex.def)             Requested size: 195.12767pt x 159.46797pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_2_8_n_Jacobi.eps>
+
+(epstopdf)                    date: 2015-09-30 03:21:02
+(epstopdf)                    size: 303224 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_2_8_n_Jacobi-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:58:49
+(epstopdf)                    size: 148188 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_2_
+8_n_Jacobi-eps-converted-to.pdf math609_pa2_comp_example_2_8_n_Jacobi.eps>
+(epstopdf)             \includegraphics on input line 274.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_2_8_n_Jacobi-eps-converted-to.pdf, id=30, 469.755pt x
+ 384.43625pt>
+File: math609_pa2_comp_example_2_8_n_Jacobi-eps-converted-to.pdf Graphic file (
+type pdf)
+ <use math609_pa2_comp_example_2_8_n_Jacobi-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_2_8_n_Jacobi-eps-converted-to
+.pdf used on input line 274.
+(pdftex.def)             Requested size: 195.12767pt x 159.68471pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_2_8_n_Gauss-Seide
+l.eps>
+(epstopdf)                    date: 2015-09-30 03:21:03
+(epstopdf)                    size: 304028 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_2_8_n_Gauss-Seide
+l-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:58:50
+(epstopdf)                    size: 148480 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_2_
+8_n_Gauss-Seidel-eps-converted-to.pdf math609_pa2_comp_example_2_8_n_Gauss-Seid
+el.eps>
+(epstopdf)             \includegraphics on input line 280.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_2_8_n_Gauss-Seidel-eps-converted-to.pdf, id=31, 469.7
+55pt x 384.43625pt>
+File: math609_pa2_comp_example_2_8_n_Gauss-Seidel-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use math609_pa2_comp_example_2_8_n_Gauss-Seidel-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_2_8_n_Gauss-Seidel-eps-conver
+ted-to.pdf used on input line 280.
+(pdftex.def)             Requested size: 195.12767pt x 159.68471pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_2_8_n_SOR.eps>
+(epstopdf)                    date: 2015-09-30 03:21:04
+(epstopdf)                    size: 302691 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_2_8_n_SOR-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:58:52
+(epstopdf)                    size: 148420 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_2_
+8_n_SOR-eps-converted-to.pdf math609_pa2_comp_example_2_8_n_SOR.eps>
+(epstopdf)             \includegraphics on input line 287.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_2_8_n_SOR-eps-converted-to.pdf, id=32, 469.755pt x 38
+4.43625pt>
+File: math609_pa2_comp_example_2_8_n_SOR-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use math609_pa2_comp_example_2_8_n_SOR-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_2_8_n_SOR-eps-converted-to.pd
+f used on input line 287.
+(pdftex.def)             Requested size: 195.12767pt x 159.68471pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_2_8_n_SSOR.eps>
+(epstopdf)                    date: 2015-09-30 03:21:05
+(epstopdf)                    size: 310048 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_2_8_n_SSOR-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:58:53
+(epstopdf)                    size: 169341 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_2_
+8_n_SSOR-eps-converted-to.pdf math609_pa2_comp_example_2_8_n_SSOR.eps>
+(epstopdf)             \includegraphics on input line 293.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_2_8_n_SSOR-eps-converted-to.pdf, id=33, 469.755pt x 3
+84.43625pt>
+File: math609_pa2_comp_example_2_8_n_SSOR-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use math609_pa2_comp_example_2_8_n_SSOR-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_2_8_n_SSOR-eps-converted-to.p
+df used on input line 293.
+(pdftex.def)             Requested size: 195.12767pt x 159.68471pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_2_16_n_Jacobi.eps
+>
+(epstopdf)                    date: 2015-09-30 03:21:55
+(epstopdf)                    size: 588787 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_2_16_n_Jacobi-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:58:56
+(epstopdf)                    size: 304287 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_2_
+16_n_Jacobi-eps-converted-to.pdf math609_pa2_comp_example_2_16_n_Jacobi.eps>
+(epstopdf)             \includegraphics on input line 306.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_2_16_n_Jacobi-eps-converted-to.pdf, id=34, 469.755pt 
+x 384.43625pt>
+File: math609_pa2_comp_example_2_16_n_Jacobi-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use math609_pa2_comp_example_2_16_n_Jacobi-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_2_16_n_Jacobi-eps-converted-t
+o.pdf used on input line 306.
+(pdftex.def)             Requested size: 195.12767pt x 159.68471pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_2_16_n_Gauss-Seid
+el.eps>
+(epstopdf)                    date: 2015-09-30 03:21:56
+(epstopdf)                    size: 589463 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_2_16_n_Gauss-Seid
+el-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:58:59
+(epstopdf)                    size: 304431 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_2_
+16_n_Gauss-Seidel-eps-converted-to.pdf math609_pa2_comp_example_2_16_n_Gauss-Se
+idel.eps>
+(epstopdf)             \includegraphics on input line 312.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_2_16_n_Gauss-Seidel-eps-converted-to.pdf, id=35, 469.
+755pt x 384.43625pt>
+File: math609_pa2_comp_example_2_16_n_Gauss-Seidel-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use math609_pa2_comp_example_2_16_n_Gauss-Seidel-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_2_16_n_Gauss-Seidel-eps-conve
+rted-to.pdf used on input line 312.
+(pdftex.def)             Requested size: 195.12767pt x 159.68471pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_2_16_n_SOR.eps>
+(epstopdf)                    date: 2015-09-30 03:21:56
+(epstopdf)                    size: 588261 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_2_16_n_SOR-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:59:03
+(epstopdf)                    size: 304543 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_2_
+16_n_SOR-eps-converted-to.pdf math609_pa2_comp_example_2_16_n_SOR.eps>
+(epstopdf)             \includegraphics on input line 319.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_2_16_n_SOR-eps-converted-to.pdf, id=36, 469.755pt x 3
+84.43625pt>
+File: math609_pa2_comp_example_2_16_n_SOR-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use math609_pa2_comp_example_2_16_n_SOR-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_2_16_n_SOR-eps-converted-to.p
+df used on input line 319.
+(pdftex.def)             Requested size: 195.12767pt x 159.68471pt.
+Package epstopdf Info: Source file: <math609_pa2_comp_example_2_16_n_SSOR.eps>
+(epstopdf)                    date: 2015-09-30 03:21:58
+(epstopdf)                    size: 590310 bytes
+(epstopdf)             Output file: <math609_pa2_comp_example_2_16_n_SSOR-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2015-09-30 03:59:06
+(epstopdf)                    size: 329520 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa2_comp_example_2_
+16_n_SSOR-eps-converted-to.pdf math609_pa2_comp_example_2_16_n_SSOR.eps>
+(epstopdf)             \includegraphics on input line 325.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa2_comp_example_2_16_n_SSOR-eps-converted-to.pdf, id=37, 469.755pt x 
+384.43625pt>
+File: math609_pa2_comp_example_2_16_n_SSOR-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use math609_pa2_comp_example_2_16_n_SSOR-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa2_comp_example_2_16_n_SSOR-eps-converted-to.
+pdf used on input line 325.
+(pdftex.def)             Requested size: 195.12767pt x 159.68471pt.
+Package epstopdf Info: Source file: <math609_pa3_comp_example_2_104_n_Jacobi.ep
+s>
+(epstopdf)                    date: 2015-09-30 11:03:13
+(epstopdf)                    size: 354016 bytes
+(epstopdf)             Output file: <math609_pa3_comp_example_2_104_n_Jacobi-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 11:11:14
+(epstopdf)                    size: 180051 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa3_comp_example_2_
+104_n_Jacobi-eps-converted-to.pdf math609_pa3_comp_example_2_104_n_Jacobi.eps>
+(epstopdf)             \includegraphics on input line 336.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa3_comp_example_2_104_n_Jacobi-eps-converted-to.pdf, id=38, 469.755pt
+ x 384.43625pt>
+File: math609_pa3_comp_example_2_104_n_Jacobi-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use math609_pa3_comp_example_2_104_n_Jacobi-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa3_comp_example_2_104_n_Jacobi-eps-converted-
+to.pdf used on input line 336.
+(pdftex.def)             Requested size: 195.12767pt x 159.68471pt.
+Package epstopdf Info: Source file: <math609_pa3_comp_example_2_104_n_Gauss-Sei
+del.eps>
+(epstopdf)                    date: 2015-09-30 11:03:14
+(epstopdf)                    size: 354820 bytes
+(epstopdf)             Output file: <math609_pa3_comp_example_2_104_n_Gauss-Sei
+del-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 11:11:16
+(epstopdf)                    size: 180542 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa3_comp_example_2_
+104_n_Gauss-Seidel-eps-converted-to.pdf math609_pa3_comp_example_2_104_n_Gauss-
+Seidel.eps>
+(epstopdf)             \includegraphics on input line 342.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa3_comp_example_2_104_n_Gauss-Seidel-eps-converted-to.pdf, id=39, 469
+.755pt x 384.43625pt>
+File: math609_pa3_comp_example_2_104_n_Gauss-Seidel-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use math609_pa3_comp_example_2_104_n_Gauss-Seidel-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa3_comp_example_2_104_n_Gauss-Seidel-eps-conv
+erted-to.pdf used on input line 342.
+(pdftex.def)             Requested size: 195.12767pt x 159.68471pt.
+Package epstopdf Info: Source file: <math609_pa3_comp_example_2_104_n_SOR.eps>
+(epstopdf)                    date: 2015-09-30 11:03:15
+(epstopdf)                    size: 353618 bytes
+(epstopdf)             Output file: <math609_pa3_comp_example_2_104_n_SOR-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2015-09-30 11:11:17
+(epstopdf)                    size: 180206 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa3_comp_example_2_
+104_n_SOR-eps-converted-to.pdf math609_pa3_comp_example_2_104_n_SOR.eps>
+(epstopdf)             \includegraphics on input line 349.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa3_comp_example_2_104_n_SOR-eps-converted-to.pdf, id=40, 469.755pt x 
+384.43625pt>
+File: math609_pa3_comp_example_2_104_n_SOR-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use math609_pa3_comp_example_2_104_n_SOR-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa3_comp_example_2_104_n_SOR-eps-converted-to.
+pdf used on input line 349.
+(pdftex.def)             Requested size: 195.12767pt x 159.68471pt.
+Package epstopdf Info: Source file: <math609_pa3_comp_example_2_104_n_SSOR.eps>
+
+(epstopdf)                    date: 2015-09-30 11:03:15
+(epstopdf)                    size: 232022 bytes
+(epstopdf)             Output file: <math609_pa3_comp_example_2_104_n_SSOR-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2015-09-30 11:11:19
+(epstopdf)                    size: 97972 bytes
+(epstopdf)             Command: <epstopdf --outfile=math609_pa3_comp_example_2_
+104_n_SSOR-eps-converted-to.pdf math609_pa3_comp_example_2_104_n_SSOR.eps>
+(epstopdf)             \includegraphics on input line 355.
+Package epstopdf Info: Output file is already uptodate.
+
+<math609_pa3_comp_example_2_104_n_SSOR-eps-converted-to.pdf, id=41, 469.755pt x
+ 384.43625pt>
+File: math609_pa3_comp_example_2_104_n_SSOR-eps-converted-to.pdf Graphic file (
+type pdf)
+ <use math609_pa3_comp_example_2_104_n_SSOR-eps-converted-to.pdf>
+Package pdftex.def Info: math609_pa3_comp_example_2_104_n_SSOR-eps-converted-to
+.pdf used on input line 355.
+(pdftex.def)             Requested size: 195.12767pt x 159.68471pt.
+
+[2] [3 <./math609_pa2_comp_example_1_n_19_k_Jacobi_part_a-eps-converted-to.pdf>
+ <./math609_pa2_comp_example_1_n_19_k_Gauss-Seidel_part_a-eps-converted-to.pdf>
+ <./math609_pa2_comp_example_1_n_19_k_SOR_part_a-eps-converted-to.pdf> <./math6
+09_pa2_comp_example_1_n_19_k_SSOR_part_a-eps-converted-to.pdf>] [4 <./math609_p
+a2_comp_example_1_n_39_k_Jacobi_part_a-eps-converted-to.pdf> <./math609_pa2_com
+p_example_1_n_39_k_Gauss-Seidel_part_a-eps-converted-to.pdf> <./math609_pa2_com
+p_example_1_n_39_k_SOR_part_a-eps-converted-to.pdf> <./math609_pa2_comp_example
+_1_n_39_k_SSOR_part_a-eps-converted-to.pdf>] [5 <./math609_pa2_comp_example_1_n
+_79_k_Jacobi_part_a-eps-converted-to.pdf> <./math609_pa2_comp_example_1_n_79_k_
+Gauss-Seidel_part_a-eps-converted-to.pdf> <./math609_pa2_comp_example_1_n_79_k_
+SOR_part_a-eps-converted-to.pdf> <./math609_pa2_comp_example_1_n_79_k_SSOR_part
+_a-eps-converted-to.pdf>] [6 <./math609_pa2_comp_example_1_n_79_k_Jacobi_part_b
+-eps-converted-to.pdf> <./math609_pa2_comp_example_1_n_79_k_Gauss-Seidel_part_b
+-eps-converted-to.pdf> <./math609_pa2_comp_example_1_n_79_k_SOR_part_b-eps-conv
+erted-to.pdf> <./math609_pa2_comp_example_1_n_79_k_SSOR_part_b-eps-converted-to
+.pdf>] [7 <./math609_pa2_comp_example_2_8_n_Jacobi-eps-converted-to.pdf> <./mat
+h609_pa2_comp_example_2_8_n_Gauss-Seidel-eps-converted-to.pdf> <./math609_pa2_c
+omp_example_2_8_n_SOR-eps-converted-to.pdf> <./math609_pa2_comp_example_2_8_n_S
+SOR-eps-converted-to.pdf>] [8 <./math609_pa2_comp_example_2_16_n_Jacobi-eps-con
+verted-to.pdf> <./math609_pa2_comp_example_2_16_n_Gauss-Seidel-eps-converted-to
+.pdf> <./math609_pa2_comp_example_2_16_n_SOR-eps-converted-to.pdf> <./math609_p
+a2_comp_example_2_16_n_SSOR-eps-converted-to.pdf>] [9 <./math609_pa3_comp_examp
+le_2_104_n_Jacobi-eps-converted-to.pdf> <./math609_pa3_comp_example_2_104_n_Gau
+ss-Seidel-eps-converted-to.pdf> <./math609_pa3_comp_example_2_104_n_SOR-eps-con
+verted-to.pdf> <./math609_pa3_comp_example_2_104_n_SSOR-eps-converted-to.pdf>]
+(pa2.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1634 strings out of 493698
+ 30211 string characters out of 3144409
+ 83682 words of memory out of 3000000
+ 4941 multiletter control sequences out of 15000+200000
+ 8880 words of font info for 31 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 42i,8n,23p,353b,282s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmti12.pfb>
+Output written on pa2.pdf (10 pages, 2768877 bytes).
+PDF statistics:
+ 3784 PDF objects out of 4296 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+

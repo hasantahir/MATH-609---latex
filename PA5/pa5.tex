@@ -1,0 +1,154 @@
+\documentclass[11pt]{article}
+\author{Hasan Tahir Abbas}
+\usepackage{graphicx}
+%\usepackage{epstopdf}
+\usepackage{pgfplots}
+\usepackage{subfig}
+\usepackage{tikz}
+\usepackage{times}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{chemformula}
+%\usepackage{tikzpicture}
+\usepackage{standalone}
+\renewcommand\footnotemark{}
+\renewcommand\footnoterule{}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hoffset        2mm 
+\voffset        -15mm
+\oddsidemargin  0mm
+\topmargin      0.5in
+\textwidth      6in
+\textheight     9in
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{titlepage}
+
+\vspace*{55mm}
+\begin{center}
+{\huge MATH 609}\\[1cm]
+{\em \huge Programming Assignment \#5}\\[70mm]
+{\large Fall, 2015} \\[15mm]
+\end{center}
+
+\begin{flushright}
+{\LARGE Hasan Tahir Abbas}
+\end{flushright}
+
+\vfill
+
+\end{titlepage}
+%
+%
+%
+%
+\newpage
+\section{Specifications}
+
+This programming assignment follows algorithms \textit{RK45} and \textit{RK45\_Adaptive} as presented in \textit{Numerical Mathematics and Computing} by Kincaid and Cheney. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+\subsection{Initial Value Problem}
+\begin{equation}
+y^{\prime}(t) = \frac{2}{t} y + t^2e^t, 1\leq t \leq 2, y(1) = 0.
+\label{eq:IVP}
+\end{equation}
+The numerical solution is compared with the given exact solution in Fig. \ref{fig:IVP}.
+
+\begin{figure}
+     \centering
+    		 {\includestandalone[scale=1]{math609_pa5_comp_example_1_1}}
+     \caption{Numerical and exact solutions of the IVP in Eq. \ref{eq:IVP} }
+     \label{fig:IVP}
+\end{figure}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+\subsection{Current in an RLC Circuit}
+The numerical solution of the current in the circuit is plotted in Fig. \ref{fig:RLC}. The first picture shows the transient nature of the current whereas in the second, the current approaches a stable value.
+%\begin{equation}
+\begin{align*} 
+i^{\prime}(t) = C E^{\prime\prime}(t) + \frac{1}{R} E^{\prime}(t) + \frac{1}{L} E(t), i(0) = 0.\\
+E(t) = e^{-.06\pi t}\times \sin{(2t-\pi)}, 0 < t < 5.
+\label{eq:RLC}
+\end{align*} 
+
+%\end{equation}
+
+\begin{figure}
+     \centering
+    		 \subfloat[][]{ \includestandalone[scale=1]{math609_pa5_comp_example_2_5}\label{tb_5}}\\
+		 \subfloat[][]{ \includestandalone[scale=1]{math609_pa5_comp_example_2_50}\label{tb_50}}
+     \caption{Current in an RLC Circuit (a) $t = 5$ (b) $t = 50$ sec}
+     \label{fig:RLC}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Water flow in an inverted conical tank}
+
+The water level inside the inverted conical tank is shown in Fig. \ref{fig:tank}. The tank will be emptied in around 1506 seconds according to the given conditions.
+
+\begin{align*} 
+y^{\prime}(t) = .6\pi r^2 \sqrt{2g}\frac{\sqrt{y}}{A(y)}, y(0) = 8\\
+A(y) = \pi y^2.
+\end{align*} 
+
+\begin{figure}
+     \centering
+    		{ \includestandalone[scale=1]{math609_pa5_comp_example_3_1}\label{n_11}}
+     \caption{Water level in an inverted conical tank}
+     \label{fig:tank}
+\end{figure}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Potassium Hydroxide Stoichiometric Equation}
+
+The number of potassium hoydroxide formed is shown in Fig. \ref{fig:CHEM}.
+\begin{equation} 
+\ch{2 K2Cr2O7 + 2 H2O + 3 S -> 4 KOH + 2 Cr2O3 + 3 SO2}
+%\label{eq:Tank}
+\end{equation} 
+
+
+\begin{figure}
+     \centering
+    		 { \includestandalone[scale=1]{math609_pa5_comp_example_4_100}\label{n_11}}
+     \caption{Number of $KOH$ molecules formed}
+     \label{fig:CHEM}
+\end{figure}
+%
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+
+
+
+
+
+
+

@@ -1,0 +1,278 @@
+\documentclass[11pt]{article}
+\author{Hasan Tahir Abbas}
+\usepackage{graphicx}
+%\usepackage{epstopdf}
+\usepackage{pgfplots}
+\usepackage{subfig}
+\usepackage{tikz}
+\usepackage{times}
+%\usepackage{tikzpicture}
+\usepackage{standalone}
+\renewcommand\footnotemark{}
+\renewcommand\footnoterule{}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hoffset        2mm 
+\voffset        -1.5in
+\oddsidemargin  0mm
+\topmargin      0.5in
+\textwidth      6in
+\textheight     9in
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{titlepage}
+
+\vspace*{55mm}
+\begin{center}
+{\huge MATH 609}\\[1cm]
+{\em \huge Homework \#5}\\[70mm]
+{\large Fall, 2015} \\[15mm]
+\end{center}
+
+\begin{flushright}
+{\LARGE Hasan Tahir Abbas}
+\end{flushright}
+
+\vfill
+
+\end{titlepage}
+%
+%
+%
+%
+\newpage
+\section{Specifications}
+\subsection{Tridiagonal System of Equations }
+
+In the first case, the numerical solution is compared with the exact solution when the $k$ parameter is approximated by a linear function. We see that the performance of Conjugate-Gradient (CG) method is much faster than the Steepest-Descent (SD) method. In the second part, numerical solution is computed when the $k$ parameter is a piece-wise function \footnote{$\varsigma$: Convergence not achieved within 100000 iterations}.
+
+
+\begin{table}[!hbt]
+\begin{center}
+{\def\arraystretch{.95}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Method  & $n = 19$  &  $n = 39$  &  $n = 79$\\
+\hline
+CG & 20 & 42& 89\\ 
+\hline
+SD & 2430 & 9761 & 38467\\ 
+\hline
+\end{tabular}}
+\end{center}
+\caption{Iterations for Convergence required in Example 1, part a}
+\end{table}
+%
+%
+\begin{table}[!hbt]
+\begin{center}
+{\def\arraystretch{.95}
+\begin{tabular}{|c|c|c|c|}
+\hline
+$n \downarrow$ & $K = 2$  &  $K = 100$  &  $K = 1000$\\
+\hline
+19 & 21 & 30& 37\\ 
+\hline
+39 & 46 & 84& 107\\ 
+\hline
+79 & 96 & 21& 311\\ 
+\hline
+\end{tabular}}
+\end{center}
+\caption{Iterations for Convergence required in Example 1, part b for CG method}
+\end{table}
+%
+%
+\begin{table}[!hbt]
+\begin{center}
+{\def\arraystretch{.95}
+\begin{tabular}{|c|c|c|c|}
+\hline
+$n \downarrow$ & $K = 2$  &  $K = 100$  &  $K = 1000$\\
+\hline
+19 & 2715 & 43676 & $\varsigma$ \\ 
+\hline
+39 & 10553 & $\varsigma$ & $\varsigma$\\ 
+\hline
+79 & 40509 & $\varsigma$ & $\varsigma$\\ 
+\hline
+\end{tabular}}
+\end{center}
+\caption{Iterations for Convergence required in Example 1, part b for SD method  }
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Approximate Solution of 2D Elliptic Equation}
+
+The numerical solution of a two-dimensional elliptic equation is computed by applying the given boundary conditions.
+
+
+\begin{table}[!hbt]
+\begin{center}
+{\def\arraystretch{.95}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Method  & $n = 8$  &  $n = 16$  &  $n = 32$\\
+\hline
+CG & 6 & 27&67\\ 
+\hline
+SD & 254 & 1291 & 5639\\ 
+\hline
+\end{tabular}}
+\end{center}
+\caption{Iterations for Convergence required in Example 2}
+\end{table}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Numerical Solution of Trough Potential}
+
+The numerical solution of an electric potential in a trough is computed. The top boundary has a voltage boundary condition of 100 volts and the rest of the boundaries are perfect electric conductors (PEC) having zero potential. The region is assumed square.
+
+
+\begin{table}[!hbt]
+\begin{center}
+{\def\arraystretch{.95}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Method  & $n = 8$  &  $n = 16$  &  $n = 32$\\
+\hline
+CG & 13 & 48&165\\ 
+\hline
+SD & 236 & 1128 &4689\\ 
+\hline
+\end{tabular}}
+\end{center}
+\caption{Iterations for Convergence required in Example 2}
+\end{table}
+%
+%
+
+
+
+
+%
+%
+%
+%
+\newpage
+\begin{figure}
+     \centering
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_19_CG_part_a}\label{n_19_CG_part_a}}
+     		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_19_SD_part_a}\label{n_19_SD_part_a}}
+\\
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_39_CG_part_a}\label{n_39_CG_part_a}}
+     		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_39_SD_part_a}\label{n_39_SD_part_a}}
+\\
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_79_CG_part_a}\label{n_79_CG_part_a}}
+     		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_79_SD_part_a}\label{n_79_SD_part_a}}
+     \centering
+     \caption{Solution of Tridiagonal System with linear function $k(t)$ (a)-(b) $n = 19$ (c)-(d) $n = 39$ (e)-(f) $n = 79$ with CG and SD method as shown}
+     \label{Tradiagonal}
+\end{figure}
+%
+%
+\begin{figure}
+     \centering
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_19_K_2_CG_part_b}\label{n_19_CG_K_2_part_b}}
+     		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_19_K_2_SD_part_b}\label{n_19_SD_K_2_part_b}}
+\\
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_19_K_100_CG_part_b}\label{n_19_CG_K_100_part_b}}
+     		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_19_K_100_SD_part_b}\label{n_19_SD_K_100_part_b}}
+\\
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_19_K_1000_CG_part_b}\label{n_19_CG_K_1000_part_b}}
+     		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_19_K_1000_SD_part_b}\label{n_19_SD_K_1000_part_b}}
+     \centering
+     \caption{Solution of Tridiagonal System with piecewise function $k(t)$  and $n = 19$ (a)-(b) $K = 2$ (c)-(d) $K = 100$ (e)-(f) $K = 1000$ with CG and SD methods as shown}
+     \label{Tradiagonal_linear}
+\end{figure}
+%
+%
+\begin{figure}
+     \centering
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_39_K_2_CG_part_b}\label{n_39_CG_K_2_part_b}}
+     		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_39_K_2_SD_part_b}\label{n_39_SD_K_2_part_b}}
+\\
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_39_K_100_CG_part_b}\label{n_39_CG_K_100_part_b}}
+     		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_39_K_100_SD_part_b}\label{n_39_SD_K_100_part_b}}
+\\
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_39_K_1000_CG_part_b}\label{n_39_CG_K_1000_part_b}}
+     		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_39_K_1000_SD_part_b}\label{n_39_SD_K_1000_part_b}}
+     \centering
+     \caption{Solution of Tridiagonal System with piecewise function $k(t)$  and $n = 39$ (a)-(b) $K = 2$ (c)-(d) $K = 100$ (e)-(f) $K = 1000$ with CG and SD methods as shown}
+     \label{Tradiagonal_linear}
+\end{figure}
+%
+%
+\newpage
+
+\begin{figure}
+     \centering
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_79_K_2_CG_part_b}\label{n_79_CG_K_2_part_b}}
+     		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_79_K_2_SD_part_b}\label{n_79_SD_K_2_part_b}}
+\\
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_79_K_100_CG_part_b}\label{n_79_CG_K_100_part_b}}
+     		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_79_K_100_SD_part_b}\label{n_79_SD_K_100_part_b}}
+\\
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_79_K_1000_CG_part_b}\label{n_79_CG_K_1000_part_b}}
+     		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_79_K_1000_SD_part_b}\label{n_79_SD_K_1000_part_b}}
+     \centering
+     \caption{Solution of Tridiagonal System with piecewise function $k(t)$  and $n = 79$ (a)-(b) $K = 2$ (c)-(d) $K = 100$ (e)-(f) $K = 1000$ with CG and SD methods as shown}
+     \label{Tradiagonal_piecewise}
+\end{figure}
+%
+%
+\newpage
+
+\begin{figure}
+     \centering
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_2_8_n_CG}\label{8_n_CG}}
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_2_8_n_SD}\label{8_n_SD}}
+\\
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_2_16_n_CG}\label{16_n_CG}}
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_2_16_n_SD}\label{16_n_SD}}
+\\
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_2_32_n_CG}\label{32_n_CG}}
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_2_32_n_SD}\label{32_n_SD}}
+     \centering
+     \caption{Approximate Solution of 2D Elliptic Equation $-\Delta u +u = 1$  with $\Omega = (0 ,1)\times(0 ,1)$ and $u(\Omega) = 0$ (a)-(b) $n = 8$ (c)-(d) $n = 16$ (e)-(f) $n = 32$ with CG and SD methods as shown}
+     \label{Tradiagonal}
+\end{figure}
+%
+%
+\newpage
+
+\begin{figure}
+     \centering
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_3_8_n_CG}\label{3_8_n_CG}}
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_3_8_n_SD}\label{3_8_n_SD}}
+\\
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_3_16_n_CG}\label{3_16_n_CG}}
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_3_16_n_SD}\label{3_16_n_SD}}
+\\
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_3_32_n_CG}\label{3_32_n_CG}}
+    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_3_32_n_SD}\label{3_32_n_SD}}
+\\    		 
+     \centering
+     \caption{Approximate Electrical Potential Solution of 2D Poisson's Equation $-\Delta \Phi +\Phi = V$  with three PEC boundaries $\Phi(\Omega) = 0$ and 100 volts plate at the top and $\Phi(\chi) = 100$ (a)-(b) $n = 32$ with CG and SD methods as shown}
+     \label{Trough}
+\end{figure}
+\end{document}
+
+
+
+
+
+
+
+

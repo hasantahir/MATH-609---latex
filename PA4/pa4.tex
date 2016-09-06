@@ -1,0 +1,210 @@
+\documentclass[11pt]{article}
+\author{Hasan Tahir Abbas}
+\usepackage{graphicx}
+%\usepackage{epstopdf}
+\usepackage{pgfplots}
+\usepackage{subfig}
+\usepackage{tikz}
+\usepackage{times}
+\usepackage{booktabs}
+\usepackage{amsmath}
+%\usepackage{tikzpicture}
+\usepackage{standalone}
+\renewcommand\footnotemark{}
+\renewcommand\footnoterule{}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hoffset        2mm 
+\voffset        -15mm
+\oddsidemargin  0mm
+\topmargin      0.5in
+\textwidth      6in
+\textheight     9in
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{titlepage}
+
+\vspace*{55mm}
+\begin{center}
+{\huge MATH 609}\\[1cm]
+{\em \huge Programming Assignment \#4}\\[70mm]
+{\large Fall, 2015} \\[15mm]
+\end{center}
+
+\begin{flushright}
+{\LARGE Hasan Tahir Abbas}
+\end{flushright}
+
+\vfill
+
+\end{titlepage}
+%
+%
+%
+%
+\newpage
+\section{Specifications}
+
+This programming assignment is implemented through two pieces of algorithms \textit{spline3\_coeff} and \textit{spline3\_eval} as presented in \textit{Numerical Mathematics and Computing} by Kincaid and Cheney. The first code, \textit{spline3\_coeff} accepts a data file and finds the unknown parameters $z_i$ based on the conditions provided at the ends. The second code, \textit{spline3\_eval} computes the spline along with the first and second derivatives of the spline function.
+
+\begin{table}[htbp]
+  \centering
+\caption{Car Traveling on a Straight road}
+    \begin{tabular}{rr}
+    \toprule
+    Time & Distance\\
+    \midrule
+    0     & 0 \\
+    3     & 225 \\
+    5     & 385 \\
+    8     & 623 \\
+    13    & 933 \\
+    \bottomrule
+    \end{tabular}%
+\label{tab:Car}
+\end{table}%
+
+
+\subsection{Traveling Car Example with free ends}
+
+This example is solved without any modifications to the core algorithms. With the data given in Table \ref{tab:Car}, the position of the car is shown in the Fig. \ref{fig:Car_free}. The speed at $t = 10$ sec is $62.44$ ft/s.
+
+\begin{figure}
+     \centering
+    		 {\includestandalone[scale=1]{math609_pa4_example_1}}
+     \caption{Cubic Spline Interpolation of a traveling car with free ends}
+     \label{fig:Car_free}
+\end{figure}
+
+\subsection{Traveling Car Example with fixed ends}
+
+Since the end conditions are specified in the case of fixed ends, $z_0$ and $z_n$ are calculated through \ref{eq:fixed_z0} and \ref{eq:fixed_zn}. With the data given in \ref{tab:Car}, the position of the car is shown in the Fig. \ref{fig:Car_free}. The speed at $t = 10$ sec is $64.17$ ft/s.
+
+\begin{figure}
+     \centering
+    		 {\includestandalone[scale=1]{math609_pa4_example_2}}
+     \caption{Cubic Spline Interpolation of a traveling car with fixed ends}
+     \label{fig:Car_fixed}
+\end{figure}
+
+\begin{equation}
+z_0 = 6 \times \frac{\alpha_0 + z_1\times h_0/6 + y_0/h_0 - y_1/h_0}{4h_0}
+\label{eq:fixed_z0}
+\end{equation}
+
+\begin{equation}
+z_n =\left ( (\alpha_n - z_{n-1})\times h_{n-1}/6 - \frac{y_{n}- y_{n-1}}{h_{n-1}}\right )\times 3/h_{n-1}
+\label{eq:fixed_zn}
+\end{equation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Approximation of US Population}
+
+This example is solved without any modifications to the core algorithms. The required numbers are tabulated in Table \ref{tab:Pop} and the spline curve is shown in Fig. \ref{fig:Pop}.
+
+\begin{figure}
+     \centering
+    		 {\includestandalone[scale=1]{math609_pa4_example_3}}
+     \caption{Cubic Spline Interpolation of US Population}
+     \label{fig:Pop}
+\end{figure}
+
+\begin{table}[htbp]
+  \centering
+  \caption{US Population}
+    \begin{tabular}{rr}
+    \toprule
+    Year & Population\\
+    \midrule
+    1930  & 123203 \\
+    1940  & 131669 \\
+    1950  & 150697 \\
+    1960  & 179323 \\
+    1965  & 191847 \\
+    1970  & 203212 \\
+    1975  & 214773 \\
+    1980  & 226505 \\
+    1985  & 238123 \\
+    1990  & 249643 \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:Pop}%
+\end{table}%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Parametric Splines}
+
+In the first example, we have two trigonometric functions, $x(t) = cos(t)$ and  $y(t) = sin(t)$  with $0 <= t <=\pi$. Two plots of the parametric spline are shown for different number of knots are shown in Fig. \ref{fig:trig}. The errors are tabulated in Table \ref{tab:error}.
+
+\begin{figure}
+     \centering
+    		 \subfloat[][]{ \includestandalone[scale=1]{math609_pa4_example_3_1__n_11}\label{n_11}}\\
+		 \subfloat[][]{ \includestandalone[scale=1]{math609_pa4_example_3_1__n_21}\label{n_21}}
+     \caption{Parametric Spline for trigonometric functions, $x(t) = cos(t)$ and  $y(t) = sin(t)$  with $0 <= t <=\pi$ (a) $n = 11$ (b) $n = 21$}
+     \label{fig:trig}
+\end{figure}
+%
+%
+\begin{table}[htbp]
+  \centering
+  \caption{ Error $\max _{t\in \left[ 0,\pi \right] }\left(  \left| x^{(l)}(t) \right| - \left| S^{(l)}_x (t) \right|   +   \left| y^{(l)}(t) \right| - \left| S^{(l)}_y (t) \right|\right)$ }
+    \begin{tabular}{rr}
+    \toprule
+    \textit{l} & Error\\
+    \midrule
+    0     & 0.0061 \\
+    1     & 0.0791 \\
+    2     & 0.6362 \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:error}%
+\end{table}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Parametric Splines Curve Approximation}
+
+In this example, a curve is first hand-drawn and the co-ordinates of a number of nodes are noted. The list of the co-ordinates is then passed to the code to generate Fig. \ref{fig:curve}. 
+
+\begin{figure}
+     \centering
+    		 {\includestandalone[scale=1]{math609_pa4_example_3_2}}
+     \caption{Parametric Cubic Spline for a hand-drawn curve with n = 11}
+     \label{fig:curve}
+\end{figure}
+
+%
+%
+%
+%
+%\newpage
+%\begin{figure}
+%     \centering
+%    		 \subfloat[][]{ \includestandalone[scale=.55]{math609_pa3_comp_example_1_n_19_CG_part_a}\label{n_19_CG_part_a}}
+%     \caption{Solution of Tridiagonal System with linear function $k(t)$ (a)-(b) $n = 19$ (c)-(d) $n = 39$ (e)-(f) $n = 79$ with CG and SD method as shown}
+%     \label{Tradiagonal}
+%\end{figure}
+%
+%
+
+
+\end{document}
+
+
+
+
+
+
+
+
